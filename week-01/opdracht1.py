@@ -1,7 +1,7 @@
 # Oefening 1
 # Print de volgende zin "Hello World"
 
-print('Hello World')
+print("Hello World")
 
 
 # Oefening 2
@@ -12,14 +12,16 @@ naam = "Kaan"
 leeftijd = 16
 woonstad = "Utrecht"
 
+print(naam, leeftijd, woonstad)
+
 
 # Oefening 3
 # Gebruik nu bovenstaande variabelen om zinnen te bouwen
 # Bijvoorbeeld print("Hallo mijn naam is ", naam) of print(f"Mijn naam is {naam}")
 
-print(f'Mijn naam is {naam}')
-print(f'ik ben {leeftijd} jaar oud')
-print(f'Ik woon in {woonstad}')
+print(f"Mijn naam is {naam}")
+print(f"ik ben {leeftijd} jaar oud")
+print(f"Ik woon in {woonstad}")
 
 
 
@@ -31,9 +33,9 @@ game = "Outlast Trials"
 uren = 150
 cijfer = 9
 
-print(f'Mijn favoriete game is {game}')
-print(f'Mijn aantal uren zijn {uren}')
-print(f'Ik geef deze game een cijfer van {cijfer}')
+print(f"Mijn favoriete game is {game}")
+print(f"Mijn aantal uren zijn {uren}")
+print(f"Ik geef deze game een cijfer van {cijfer}")
 
 # Oefening 5
 # Maak twee variabelen aan, number1 en number2
@@ -72,9 +74,16 @@ print(health)
 # Print daarna de nieuwe waardes uit 
 
 weapon = "Shotgun"
-
-damage -= 15
+weaponDamage = 20
+damage += weaponDamage
 level  += 1
+
+
+print(name)
+print(health)
+print(level)
+print(damage)
+print(weapon)
 
 # Oefening 8
 # Maak een programma dat een profiel van een gamer laat zien
@@ -82,3 +91,21 @@ level  += 1
 # Print al deze informatie netjes uit
 # Verhoog daarna de score van het profiel met 250 en print de nieuwe waarde
 # Bonus! Voeg zelf 3 nieuwe variabelen toe
+
+name = "Kaan"
+age = 16
+favouriteGame = "Outlast Trials"
+hoursPlayed = 150
+level = 1
+score = 1000
+
+print(f"Naam {name}")
+print(f"Leeftijd {age}")
+print(f"Favoriete game {favouriteGame}")
+print(f"Uren gespeeld {hoursPlayed}")
+print(f"Level {level}")
+print(f"Score {score}")
+
+platform = "PC"
+favouriteGenre = "Horror"
+favouriteTrial = "Grind the Bad Apples"
